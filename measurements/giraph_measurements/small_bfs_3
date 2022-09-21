@@ -1,0 +1,86 @@
+Warning: $HADOOP_HOME is deprecated.
+
+22/09/17 19:04:07 INFO utils.ConfigurationUtils: No edge output format specified. Ensure your OutputFormat does not require one.
+22/09/17 19:04:07 INFO job.GiraphJob: run: Since checkpointing is disabled (default), do not allow any task retries (setting mapred.map.max.attempts = 1, old value = 4)
+22/09/17 19:04:10 INFO job.GiraphJob: Tracking URL: http://master:50030/jobdetails.jsp?jobid=job_202209171736_0032
+22/09/17 19:04:10 INFO job.GiraphJob: Waiting for resources... Job will start only when it gets all 4 mappers
+22/09/17 19:04:47 INFO job.HaltApplicationUtils$DefaultHaltInstructionsWriter: writeHaltInstructions: To halt after next superstep execute: 'bin/halt-application --zkServer one:22181 --zkNode /_hadoopBsp/job_202209171736_0032/_haltComputation'
+22/09/17 19:04:47 INFO mapred.JobClient: Running job: job_202209171736_0032
+22/09/17 19:04:48 INFO mapred.JobClient:  map 100% reduce 0%
+22/09/17 19:05:15 INFO mapred.JobClient: Job complete: job_202209171736_0032
+22/09/17 19:05:15 INFO mapred.JobClient: Counters: 59
+22/09/17 19:05:15 INFO mapred.JobClient:   Map-Reduce Framework
+22/09/17 19:05:15 INFO mapred.JobClient:     Spilled Records=0
+22/09/17 19:05:15 INFO mapred.JobClient:     Virtual memory (bytes) snapshot=12467445760
+22/09/17 19:05:15 INFO mapred.JobClient:     Map input records=4
+22/09/17 19:05:15 INFO mapred.JobClient:     SPLIT_RAW_BYTES=176
+22/09/17 19:05:15 INFO mapred.JobClient:     Map output records=0
+22/09/17 19:05:15 INFO mapred.JobClient:     Physical memory (bytes) snapshot=3254513664
+22/09/17 19:05:15 INFO mapred.JobClient:     CPU time spent (ms)=131730
+22/09/17 19:05:15 INFO mapred.JobClient:     Total committed heap usage (bytes)=2612002816
+22/09/17 19:05:15 INFO mapred.JobClient:   Zookeeper halt node
+22/09/17 19:05:15 INFO mapred.JobClient:     /_hadoopBsp/job_202209171736_0032/_haltComputation=0
+22/09/17 19:05:15 INFO mapred.JobClient:   Zookeeper server:port
+22/09/17 19:05:15 INFO mapred.JobClient:     one:22181=0
+22/09/17 19:05:15 INFO mapred.JobClient:   Giraph Timers
+22/09/17 19:05:15 INFO mapred.JobClient:     Superstep 6 MyBFS (ms)=260
+22/09/17 19:05:15 INFO mapred.JobClient:     Superstep 10 MyBFS (ms)=121
+22/09/17 19:05:15 INFO mapred.JobClient:     Superstep 1 MyBFS (ms)=313
+22/09/17 19:05:15 INFO mapred.JobClient:     Superstep 4 MyBFS (ms)=1678
+22/09/17 19:05:15 INFO mapred.JobClient:     Shutdown (ms)=9366
+22/09/17 19:05:15 INFO mapred.JobClient:     Superstep 8 MyBFS (ms)=138
+22/09/17 19:05:15 INFO mapred.JobClient:     Superstep 9 MyBFS (ms)=124
+22/09/17 19:05:15 INFO mapred.JobClient:     Superstep 13 MyBFS (ms)=138
+22/09/17 19:05:15 INFO mapred.JobClient:     Superstep 2 MyBFS (ms)=276
+22/09/17 19:05:15 INFO mapred.JobClient:     Superstep 11 MyBFS (ms)=108
+22/09/17 19:05:15 INFO mapred.JobClient:     Superstep 0 MyBFS (ms)=718
+22/09/17 19:05:15 INFO mapred.JobClient:     Initialize (ms)=4039
+22/09/17 19:05:15 INFO mapred.JobClient:     Superstep 5 MyBFS (ms)=381
+22/09/17 19:05:15 INFO mapred.JobClient:     Superstep 7 MyBFS (ms)=185
+22/09/17 19:05:15 INFO mapred.JobClient:     Setup (ms)=71
+22/09/17 19:05:15 INFO mapred.JobClient:     Superstep 3 MyBFS (ms)=1339
+22/09/17 19:05:15 INFO mapred.JobClient:     Input superstep (ms)=25385
+22/09/17 19:05:15 INFO mapred.JobClient:     Superstep 12 MyBFS (ms)=118
+22/09/17 19:05:15 INFO mapred.JobClient:     Total (ms)=40721
+22/09/17 19:05:15 INFO mapred.JobClient:   VERTEX input
+22/09/17 19:05:15 INFO mapred.JobClient:     100.00% done time (ms)=1395
+22/09/17 19:05:15 INFO mapred.JobClient:   EDGE input
+22/09/17 19:05:15 INFO mapred.JobClient:     100.00% done time (ms)=24329
+22/09/17 19:05:15 INFO mapred.JobClient:     99.00% done time (ms)=23273
+22/09/17 19:05:15 INFO mapred.JobClient:   File Input Format Counters 
+22/09/17 19:05:15 INFO mapred.JobClient:     Bytes Read=0
+22/09/17 19:05:15 INFO mapred.JobClient:   Netty counters
+22/09/17 19:05:15 INFO mapred.JobClient:     Network requests resent for channel failure=0
+22/09/17 19:05:15 INFO mapred.JobClient:     Network requests resent for timeout=0
+22/09/17 19:05:15 INFO mapred.JobClient:     Network requests resent for connection or request failure=0
+22/09/17 19:05:15 INFO mapred.JobClient:   Giraph Stats
+22/09/17 19:05:15 INFO mapred.JobClient:     Aggregate bytes stored to local disks (out-of-core)=0
+22/09/17 19:05:15 INFO mapred.JobClient:     Aggregate finished vertices=754147
+22/09/17 19:05:15 INFO mapred.JobClient:     Aggregate edges=42162988
+22/09/17 19:05:15 INFO mapred.JobClient:     Current master task partition=0
+22/09/17 19:05:15 INFO mapred.JobClient:     Superstep=14
+22/09/17 19:05:15 INFO mapred.JobClient:     Aggregate sent message bytes=417088540
+22/09/17 19:05:15 INFO mapred.JobClient:     Aggregate vertices=754147
+22/09/17 19:05:15 INFO mapred.JobClient:     Aggregate bytes loaded from local disks (out-of-core)=0
+22/09/17 19:05:15 INFO mapred.JobClient:     Sent messages=0
+22/09/17 19:05:15 INFO mapred.JobClient:     Sent message bytes=0
+22/09/17 19:05:15 INFO mapred.JobClient:     Current workers=3
+22/09/17 19:05:15 INFO mapred.JobClient:     Last checkpointed superstep=0
+22/09/17 19:05:15 INFO mapred.JobClient:     Aggregate sent messages=26065658
+22/09/17 19:05:15 INFO mapred.JobClient:     Lowest percentage of graph in memory so far (out-of-core)=100
+22/09/17 19:05:15 INFO mapred.JobClient:   FileSystemCounters
+22/09/17 19:05:15 INFO mapred.JobClient:     HDFS_BYTES_READ=1309400668
+22/09/17 19:05:15 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=344825
+22/09/17 19:05:15 INFO mapred.JobClient:     HDFS_BYTES_WRITTEN=15204685
+22/09/17 19:05:15 INFO mapred.JobClient:   Job Counters 
+22/09/17 19:05:15 INFO mapred.JobClient:     Launched map tasks=4
+22/09/17 19:05:15 INFO mapred.JobClient:     SLOTS_MILLIS_REDUCES=0
+22/09/17 19:05:15 INFO mapred.JobClient:     Total time spent by all reduces waiting after reserving slots (ms)=0
+22/09/17 19:05:15 INFO mapred.JobClient:     SLOTS_MILLIS_MAPS=181940
+22/09/17 19:05:15 INFO mapred.JobClient:     Total time spent by all maps waiting after reserving slots (ms)=0
+22/09/17 19:05:15 INFO mapred.JobClient:   File Output Format Counters 
+22/09/17 19:05:15 INFO mapred.JobClient:     Bytes Written=0
+
+real	1m9.158s
+user	0m4.368s
+sys	0m0.720s

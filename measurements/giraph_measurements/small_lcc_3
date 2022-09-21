@@ -1,0 +1,23 @@
+Warning: $HADOOP_HOME is deprecated.
+
+22/09/17 18:49:11 INFO utils.ConfigurationUtils: No edge output format specified. Ensure your OutputFormat does not require one.
+22/09/17 18:49:11 INFO job.GiraphJob: run: Since checkpointing is disabled (default), do not allow any task retries (setting mapred.map.max.attempts = 1, old value = 4)
+22/09/17 18:49:13 INFO job.GiraphJob: Tracking URL: http://master:50030/jobdetails.jsp?jobid=job_202209171736_0019
+22/09/17 18:49:13 INFO job.GiraphJob: Waiting for resources... Job will start only when it gets all 4 mappers
+22/09/17 18:49:46 INFO job.HaltApplicationUtils$DefaultHaltInstructionsWriter: writeHaltInstructions: To halt after next superstep execute: 'bin/halt-application --zkServer one:22181 --zkNode /_hadoopBsp/job_202209171736_0019/_haltComputation'
+22/09/17 18:49:46 INFO mapred.JobClient: Running job: job_202209171736_0019
+22/09/17 18:49:47 INFO mapred.JobClient:  map 100% reduce 0%
+22/09/17 18:50:17 INFO mapred.JobClient:  map 75% reduce 0%
+22/09/17 18:50:19 INFO mapred.JobClient: Job complete: job_202209171736_0019
+22/09/17 18:50:19 INFO mapred.JobClient: Counters: 6
+22/09/17 18:50:19 INFO mapred.JobClient:   Job Counters 
+22/09/17 18:50:19 INFO mapred.JobClient:     Launched map tasks=4
+22/09/17 18:50:19 INFO mapred.JobClient:     SLOTS_MILLIS_REDUCES=0
+22/09/17 18:50:19 INFO mapred.JobClient:     Total time spent by all reduces waiting after reserving slots (ms)=0
+22/09/17 18:50:19 INFO mapred.JobClient:     Failed map tasks=1
+22/09/17 18:50:19 INFO mapred.JobClient:     SLOTS_MILLIS_MAPS=167981
+22/09/17 18:50:19 INFO mapred.JobClient:     Total time spent by all maps waiting after reserving slots (ms)=0
+
+real	1m9.396s
+user	0m4.380s
+sys	0m0.640s

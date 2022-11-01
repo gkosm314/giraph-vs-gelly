@@ -34,6 +34,6 @@ Instructions to setup the system from scratch can be found in the report.
 
 ## Learning Outcomes
 
-* got familiar with the distributed graph processing ecosystem
 * learned how to implement graph algorithms using the vertex-centring approach
 * gained experience in deploying graph algorithms in a distributed environment
+* got familiar with the distributed graph processing ecosystem
